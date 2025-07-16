@@ -15,8 +15,8 @@ root.render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Chat />} />
-        <Route path="/chatbot" element={<ChatBot />} />
+        <Route path="/" element={<ChatBot />} />
+        <Route path="/chatbot" element={<Chat />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
